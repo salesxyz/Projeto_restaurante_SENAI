@@ -1,0 +1,27 @@
+"""Importa todos os modelos para o Base.metadata enxergar todas as tabelas."""
+from app.models.cliente_model import Cliente  # noqa: F401
+from app.models.mesa_model import Mesa  # noqa: F401
+from app.models.categoria_model import Categoria  # noqa: F401
+from app.models.produto_model import Produto  # noqa: F401
+from app.models.variacao_model import Variacao  # noqa: F401
+from app.models.ingrediente_model import Ingrediente  # noqa: F401
+from app.models.fornecedor_model import Fornecedor  # noqa: F401
+from app.models.composicao_produto_model import ComposicaoProduto  # noqa: F401
+from app.models.ingrediente_fornecedor_model import IngredienteFornecedor  # noqa: F401
+from app.models.cargo_model import Cargo  # noqa: F401
+from app.models.funcionario_model import Funcionario  # noqa: F401
+from app.models.historico_cargo_model import HistoricoCargo  # noqa: F401
+from app.models.pedido_model import Pedido  # noqa: F401
+from app.models.item_pedido_model import ItemPedido  # noqa: F401
+from app.models.adicional_model import Adicional  # noqa: F401
+from app.models.adicional_item_model import AdicionalItem  # noqa: F401
+from app.models.forma_pagamento_model import FormaPagamento  # noqa: F401
+from app.models.pagamento_model import Pagamento  # noqa: F401
+from app.models.pagamento_forma_model import PagamentoForma  # noqa: F401
+from app.models.historico_status_model import HistoricoStatus  # noqa: F401
+from app.models.entrega_model import Entrega  # noqa: F401
+from app.models.avaliacao_model import Avaliacao  # noqa: F401
+from app.models.promocao_model import Promocao  # noqa: F401
+from app.models.promocao_produto_model import PromocaoProduto  # noqa: F401
+from app.models.cupom_model import Cupom  # noqa: F401
+from app.models.uso_cupom_model import UsoCupom  # noqa: F401
